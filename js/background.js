@@ -19,7 +19,7 @@ function onError(error) {
 chrome.browserAction.onClicked.addListener(function () {
   chrome.windows.getCurrent(function (currentWindow) {
     console.log('clicked on icon');
-    chrome.tabs.captureVisibleTab(windowId = currentWindow.id, onCaptured)
+    chrome.tabs.captureVisibleTab(currentWindow.id, onCaptured)
       .then(onCaptured, onError);
   })
 });
