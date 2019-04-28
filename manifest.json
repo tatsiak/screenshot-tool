@@ -17,7 +17,7 @@
     "default_icon": {
       "16": "icons/16x16.png"
     },
-    "default_title": "FigLeaf"
+    "default_title": "ScreenshotTool"
   },
   "permissions": [
     "tabs",
